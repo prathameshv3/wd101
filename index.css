@@ -1,0 +1,99 @@
+body{
+    background-color: #bbe414;
+    color: #552ad6;
+    font-family: 'cursive';
+    font-size: 20px;
+    margin: 0;
+    align-items: center;
+}
+
+#main{
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    width: 90%;
+}
+
+#main h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 42px;
+}
+
+#form-box{
+    background-color: rgb(20, 205, 237);
+    display: flex;
+    font-family:'cursive';
+    flex-direction: column;
+    align-items: left;
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+}
+
+.inputs{
+    justify-content: space-between;
+    align-items: left;
+    font-family: cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.inputs input{
+    width: 240px;
+    height: 30px;
+    font-family: cursive;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#agree{
+
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#agree input{
+    margin-top: 10px;
+    font-size: 20px;
+    
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(101, 40, 194);
+    border-radius: 4px;
+}
+
+#submit{
+    margin-left: 280px;
+    font-family: cursive;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 50px;
+    width: 90px;
+    border: 0;
+    border-radius: 10px;
+   
+}
+
+#table-box{
+    margin : 0 20px;
+    background-color: rgb(235, 18, 156);
+    display: flex;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: left;
+    border-radius:20px;
+    height: 500px;
+    width: 800px;
+}
+
+td,th{
+    padding-left: 20px;
+    width: 80px;
+    text-align: left;
+}
